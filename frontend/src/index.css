@@ -1,0 +1,204 @@
+body {
+  background-image:url('https://images7.alphacoders.com/117/1176198.jpg');
+  font-family:'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.site-container {
+  min-height: 100vh;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  background-color: #f0c040;
+  color: #000000;
+}
+.card-img-top{
+  max-height: 75%;
+  max-height: 100%;
+}
+main{
+  font-family: 'Times New Roman', Times, serif;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.products.col
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.product-info {
+  padding: 1rem;
+}
+.img-large {
+  max-width: 100%;
+  height: 500px;
+}
+.img-thumbnail {
+  height: 80px;
+}
+.small-container {
+  max-width: 600px;
+  padding: 20px;
+  border: 3px solid #007bff;
+  margin-top: 30px;
+  border-radius: 20px;
+  backdrop-filter:blur(20px);
+  background-color: rgba(39, 39, 39, 0.218);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.resetPasswordContainer {
+  max-width: 600px;
+  padding: 20px;
+  border: 3px solid #007bff;
+  margin-top: 30px;
+  border-radius: 20px;
+  backdrop-filter:blur(20px);
+  background-color: rgba(39, 39, 39, 0.218);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.message {
+  margin-Top: 10px;
+  color:ivory;
+}
+
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #000000;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid orange;
+  color: #000000;
+}
+.rating span {
+  color: #ffc000;
+}
+
+.forgot{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 20px;
+    border: 3px solid #007bff;
+    margin-top: 100px;
+    border-radius: 20px;
+    backdrop-filter:blur(20px);
+    background-color: rgba(39, 39, 39, 0.218);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.custom-input {
+  width: 100%;
+  margin-top: 40px;
+  padding: 15px; /* Adjust the padding to increase the height */
+  border: 1px solid #ccc; /* Optional: Add border for input */
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure that padding is included in the total height */
+}
+button.forgot {
+  width: 50%;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #007bff; /* Set your desired button background color */
+  color: #fff; /* Set your desired button text color */
+
+  cursor: pointer;
+}
+
+.full-box {
+  height: 100vh;
+  max-width: initial;
+}
+.full-box header,
+.full-box footer {
+  display: none;
+}
+.full-box .container {
+  height: 100vh;
+  max-width: initial;
+  margin: 0;
+  padding: 0;
+}
+
+.full-box .mt-3 {
+  margin-top: 0 !important;
+}
+
+.map-input-box {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0.5rem auto;
+  width: 25rem;
+  height: 3rem;
+  display: flex;
+}
+.map-input-box input {
+  border-radius: 1rem 0 0 1rem;
+  border-right: 0;
+}
+.map-input-box button {
+  border-radius: 0 1rem 1rem 0;
+  border-left: 0;
+}
+button.thumbnail {
+  padding: 0;
+}
+.image-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+button {
+  transition-duration: 0.4s;
+  background-color: palevioletred;
+  border-radius: 5px;
+  color: blue;
+  border-radius: 5px;
+  backdrop-filter:blur(20px);
+  
+}
+
+button:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
